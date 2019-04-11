@@ -1,0 +1,50 @@
+name: Adversarial ML @ Princeton
+description: Updates on research on adversarial machine learning from the INSPIRE group at Princeton University
+url: http://adversarial-learning.princeton.edu/
+
+markdown: redcarpet
+permalink: /:categories/:title/
+future: true
+
+redcarpet:
+  extensions:
+   - tables
+   - no_intra_emphasis
+   - autolink
+   - superscript
+   - strikethrough
+
+exclude:
+  - "*.class"
+  - "*.cpp"
+  - "*.h"
+  - "*.hh"
+  - "*.ipynb"
+  - "*.jar"
+  - "*.java"
+  - "*.nb"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.branches"
+  - "*.csv"
+  - "*.fasta"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.newick"
+  - "*.nex"
+  - "*.tsv"
+  - "*.tips"
+  - "*.trees"
+  - "*.txt"
+  - "*.zip"
+  - "*.gz"
+  - "*.tiff"
+  - "*.xml"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+projects:
+  - trvrb/coaltrace
